@@ -26,7 +26,7 @@
   ],
   "env": {
     "SITE_NAME": "Presentes Dia das Mães",
-    "SITE_URL": "@site_url"
+    "SITE_URL": "https://seusite.com"
   },
   "headers": [
     {
