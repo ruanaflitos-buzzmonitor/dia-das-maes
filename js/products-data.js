@@ -187,26 +187,6 @@ const PRODUCTS = [
     reviewCount: 98,
     tags: ['maquiagem', 'profissional', 'completo']
   },
-  {
-    id: 'creme-corporal-hidratante',
-    name: 'Creme Corporal Nutrição Intensa',
-    price: 89.90,
-    oldPrice: 139.90,
-    image: 'https://images.unsplash.com/photo-1556229010-aa9e9f8c8e23?w=800&q=80',
-    category: 'cosmetics',
-    description: 'Creme corporal ultra hidratante com manteiga de karité, óleo de argan e vitamina E. Pele macia e perfumada por 24 horas.',
-    highlights: [
-      'Hidratação 24h',
-      'Ingredientes naturais',
-      'Fragrância suave',
-      'Absorção rápida'
-    ],
-    inStock: true,
-    stockCount: 67,
-    rating: 4.6,
-    reviewCount: 121,
-    tags: ['hidratante', 'natural', 'corporal']
-  },
 
   // ═══════════════════════════════════════════════════════════════════
   // CATEGORIA: FLORES
@@ -325,7 +305,7 @@ const PRODUCTS = [
     name: 'Quadro Personalizado Família',
     price: 119.90,
     oldPrice: 189.90,
-    image: 'https://images.unsplash.com/photo-1513519245088-0e12902e35ca?w=800&q=80',
+    image: 'https://cdn.awsli.com.br/2500x2500/403/403361/produto/227111182/painel-fotografico-principal-zvgqpg2ipi.jpg',
     category: 'gifts',
     description: 'Quadro decorativo personalizado com foto da família. Moldura em madeira nobre, impressão em alta qualidade. Presente único e emocionante.',
     highlights: [
