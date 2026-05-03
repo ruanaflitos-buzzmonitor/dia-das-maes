@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- SEO Meta Tags -->
+  <title>Presentes Dia das Mães 2024 | Joias, Flores e Presentes Especiais</title>
+  <meta name="description" content="Os melhores presentes para o Dia das Mães 2024. Joias exclusivas, flores frescas, cosméticos premium e muito mais. Entrega rápida e segura.">
+  <meta name="keywords" content="dia das mães, presentes, joias, flores, cosméticos, presentes especiais">
+  <meta name="author" content="Presentes Dia das Mães">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://seu-dominio.com/">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://seu-dominio.com/">
+  <meta property="og:title" content="Presentes Dia das Mães 2024 | Presentes Especiais">
+  <meta property="og:description" content="Os melhores presentes para o Dia das Mães. Entrega rápida, produtos selecionados com carinho.">
+  <meta property="og:image" content="https://seu-dominio.com/assets/og-image.jpg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://seu-dominio.com/">
+  <meta property="twitter:title" content="Presentes Dia das Mães 2024">
+  <meta property="twitter:description" content="Os melhores presentes para o Dia das Mães.">
+  <meta property="twitter:image" content="https://seu-dominio.com/assets/og-image.jpg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💐</text></svg>">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Schema.org Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Presentes Dia das Mães",
+    "url": "https://seu-dominio.com",
+    "description": "Os melhores presentes para o Dia das Mães"
+  }
+  </script>
+</head>
+<body>
+  
+  <!-- ═══════════════════════════════════════════════════════════════════
+       HEADER / NAVIGATION
+       ═══════════════════════════════════════════════════════════════════ -->
+  <header class="header">
+    <div class="header-container">
+      <a href="#" class="logo">
+        <span>💐</span>
+        <span>Dia das Mães</span>
+      </a>
+
+      <nav class="nav-desktop">
+        <ul>
+          <li><a href="#products">Produtos</a></li>
+          <li><a href="#testimonials">Depoimentos</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="cart-btn" onclick="openCart()" aria-label="Abrir carrinho">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart-badge" style="display: none;">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       HERO SECTION
+       ═══════════════════════════════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-container">
+      <span class="hero-badge">✨ Ofertas Especiais para o Dia das Mães</span>
+      
+      <h1>Presentes que Demonstram Todo o Seu Amor</h1>
+      
+      <p>
+        Descubra presentes únicos e especiais para celebrar a mulher mais importante da sua vida. 
+        Produtos selecionados com carinho, entrega rápida e embalagem presenteável.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#products" class="btn-primary">Ver Todos os Presentes</a>
+        <a href="#categories" class="btn-secondary">Escolher por Categoria</a>
+      </div>
+
+      <div class="countdown-container">
+        <p class="countdown-title">🎁 Faltam apenas:</p>
+        <div id="countdown"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       CATEGORIAS
+       ═══════════════════════════════════════════════════════════════════ -->
+  <section class="categories" id="categories">
+    <div class="categories-container">
+      <div class="categories-nav" id="categoriesNav">
+        <!-- Categorias serão renderizadas via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       PRODUTOS
+       ═══════════════════════════════════════════════════════════════════ -->
+  <section class="products" id="products">
+    <div class="products-container">
+      <div class="section-header animate-on-scroll">
+        <h2 class="section-title">Presentes Selecionados com Carinho</h2>
+        <p class="section-subtitle">Encontre o presente perfeito para a sua mãe</p>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+        <!-- Produtos serão renderizados via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       BENEFÍCIOS
+       ═══════════════════════════════════════════════════════════════════ -->
+  <section class="benefits" style="padding: 3rem 1.5rem; background: white;">
+    <div style="max-width: 1280px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: 1fr; gap: 2rem;">
+        
+        <div style="text-align: center; padding: 2rem; background: #FFF8FB; border-radius: 12px;" class="animate-on-scroll">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">🚚</div>
+          <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Entrega Rápida</h3>
+          <p style="color: #666;">Receba em até 48h nas capitais</p>
+        </div>
+
+        <div style="text-align: center; padding: 2rem; background: #FFF8FB; border-radius: 12px;" class="animate-on-scroll">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">🎁</div>
+          <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Embalagem Premium</h3>
+          <p style="color: #666;">Todos os presentes vêm embrulhados</p>
+        </div>
+
+        <div style="text-align: center; padding: 2rem; background: #FFF8FB; border-radius: 12px;" class="animate-on-scroll">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">💳</div>
+          <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Pagamento Seguro</h3>
+          <p style="color: #666;">Compre com total segurança</p>
+        </div>
+
+        <div style="text-align: center; padding: 2rem; background: #FFF8FB; border-radius: 12px;" class="animate-on-scroll">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">↩️</div>
+          <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Troca Garantida</h3>
+          <p style="color: #666;">7 dias para trocar se necessário</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       DEPOIMENTOS
+       ═══════════════════════════════════════════════════════════════════ -->
+  <section class="testimonials" id="testimonials">
+    <div class="testimonials-container">
+      <div class="section-header animate-on-scroll">
+        <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+        <p class="section-subtitle">Milhares de clientes satisfeitos</p>
+      </div>
+
+      <div class="testimonials-grid" id="testimonialsGrid">
+        <!-- Depoimentos serão renderizados via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       FAQ
+       ═══════════════════════════════════════════════════════════════════ -->
+  <section class="faq" id="faq">
+    <div class="faq-container">
+      <div class="section-header animate-on-scroll">
+        <h2 class="section-title">Perguntas Frequentes</h2>
+        <p class="section-subtitle">Tire suas dúvidas</p>
+      </div>
+
+      <div class="faq-list" id="faqList">
+        <!-- FAQ será renderizado via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        
+        <div class="footer-section">
+          <h4>Sobre Nós</h4>
+          <p style="color: rgba(255, 255, 255, 0.7); line-height: 1.7;">
+            Especialistas em presentes para o Dia das Mães. Produtos selecionados com carinho para celebrar o amor incondicional.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#products">Produtos</a></li>
+            <li><a href="#categories">Categorias</a></li>
+            <li><a href="#testimonials">Depoimentos</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Atendimento</h4>
+          <ul>
+            <li><a href="tel:+5516999999999">📞 (16) 99999-9999</a></li>
+            <li><a href="mailto:contato@exemplo.com">📧 contato@exemplo.com</a></li>
+            <li><a href="#">💬 Chat Online</a></li>
+            <li><a href="#">⏰ Seg-Sex: 9h-18h</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Pagamento e Segurança</h4>
+          <ul>
+            <li><a href="#">💳 Formas de Pagamento</a></li>
+            <li><a href="#">🔒 Compra Segura</a></li>
+            <li><a href="#">📜 Política de Privacidade</a></li>
+            <li><a href="#">📋 Termos de Uso</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 Presentes Dia das Mães. Todos os direitos reservados.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.75rem;">
+          Desenvolvido com 💖 para celebrar as mães
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       CART DRAWER
+       ═══════════════════════════════════════════════════════════════════ -->
+  <div id="cartOverlay" onclick="closeCart()"></div>
+  
+  <aside id="cartDrawer">
+    <div class="cart-header">
+      <h3>Meu Carrinho</h3>
+      <button class="cart-close" onclick="closeCart()" aria-label="Fechar carrinho">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div class="cart-items">
+      <!-- Itens do carrinho serão renderizados via JavaScript -->
+    </div>
+
+    <div class="cart-summary" style="display: none;">
+      <!-- Resumo do carrinho será renderizado via JavaScript -->
+    </div>
+  </aside>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       MODAL DE PRODUTO
+       ═══════════════════════════════════════════════════════════════════ -->
+  <div id="productModal">
+    <div class="modal-content">
+      <!-- Conteúdo do modal será renderizado via JavaScript -->
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       SCRIPTS
+       ═══════════════════════════════════════════════════════════════════ -->
+  
+  <!-- Configuração -->
+  <script src="js/config.js"></script>
+  
+  <!-- Dados dos produtos -->
+  <script src="js/products-data.js"></script>
+  
+  <!-- Sistema de carrinho -->
+  <script src="js/cart.js"></script>
+  
+  <!-- Aplicação principal -->
+  <script src="js/app.js"></script>
+
+  <!-- Google Analytics (se habilitado) -->
+  <script>
+    if (CONFIG.analytics.googleAnalytics.enabled) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', CONFIG.analytics.googleAnalytics.measurementId);
+    }
+  </script>
+
+  <!-- Meta Pixel (se habilitado) -->
+  <script>
+    if (CONFIG.analytics.metaPixel.enabled) {
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', CONFIG.analytics.metaPixel.pixelId);
+      fbq('track', 'PageView');
+    }
+  </script>
+
+</body>
+</html>

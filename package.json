@@ -1,0 +1,63 @@
+{
+  "name": "mae-ecommerce",
+  "version": "1.0.0",
+  "description": "E-commerce completo e profissional para venda de presentes no Dia das Mães. Desenvolvido com Vanilla JS, totalmente responsivo, otimizado para conversão.",
+  "main": "index.html",
+  "keywords": [
+    "ecommerce",
+    "dia-das-maes",
+    "presentes",
+    "shopify-alternative",
+    "mobile-first",
+    "vercel"
+  ],
+  "author": "Senior Frontend Engineer",
+  "license": "MIT",
+  "scripts": {
+    "serve": "python -m http.server 8000",
+    "serve:node": "npx http-server",
+    "build": "echo 'Project is static, no build needed'",
+    "test": "echo 'Tests can be added here'"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://seu-repositorio.com/mae-ecommerce.git"
+  },
+  "bugs": {
+    "url": "https://seu-repositorio.com/mae-ecommerce/issues"
+  },
+  "homepage": "https://seu-dominio.com",
+  "private": false,
+  "features": {
+    "mobile_first": true,
+    "responsive": true,
+    "vanilla_js": true,
+    "no_dependencies": true,
+    "payment_gateways": [
+      "whatsapp",
+      "mercadopago",
+      "stripe",
+      "pagseguro"
+    ],
+    "analytics": [
+      "google_analytics_4",
+      "meta_pixel"
+    ],
+    "shopping_cart": true,
+    "coupon_system": true,
+    "volume_discounts": true,
+    "seo_optimized": true,
+    "pwa_ready": false
+  },
+  "browsers": {
+    "chrome": "latest",
+    "firefox": "latest",
+    "safari": "latest",
+    "edge": "latest"
+  }
+}
