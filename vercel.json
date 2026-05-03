@@ -30,7 +30,7 @@
   },
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/js/(.*)",
       "headers": [
         {
           "key": "X-Content-Type-Options",
